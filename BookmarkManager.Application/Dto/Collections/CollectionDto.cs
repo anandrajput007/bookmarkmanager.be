@@ -1,3 +1,5 @@
+using BookmarkManager.Application.Dto.Bookmarks;
+
 namespace BookmarkManager.Application.Dto.Collections
 {
     public class CollectionDto
@@ -9,5 +11,6 @@ namespace BookmarkManager.Application.Dto.Collections
         public DateTime CreatedDate { get; set; }
         public int CreatedBy { get; set; }
         public int BookmarkCount { get; set; }
+        public List<BookmarkDto> Bookmarks { get; set; } = new List<BookmarkDto>();
     }
 } 
