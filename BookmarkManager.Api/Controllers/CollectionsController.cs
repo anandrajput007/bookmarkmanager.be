@@ -16,7 +16,7 @@ namespace BookmarkManager.Api.Controllers
             _mediator = mediator;
         }
 
-        [HttpGet]
+        [HttpGet("all")]
         public async Task<ActionResult<IEnumerable<CollectionDto>>> GetAll()
         {
             var result = await _mediator.Send(new GetAllCollectionsQuery());
