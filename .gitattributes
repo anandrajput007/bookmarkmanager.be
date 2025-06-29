@@ -1,0 +1,72 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# C# files
+*.cs text diff=csharp
+
+# JSON files
+*.json text
+
+# XML files
+*.xml text
+
+# SQL files
+*.sql text
+
+# Configuration files
+*.config text
+*.csproj text
+*.sln text
+
+# Documentation
+*.md text diff=markdown
+*.txt text
+
+# Scripts
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files
+*.dll binary
+*.exe binary
+*.pdb binary
+*.pdb binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.dll binary
+*.exe binary
+*.pdb binary
+*.pdb binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# Archive files
+*.zip binary
+*.tar.gz binary
+*.rar binary
+*.7z binary
+
+# Image files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Font files
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+
+# Database files
+*.mdf binary
+*.ldf binary
+*.ndf binary
+*.db binary
+*.sqlite binary
+*.sqlite3 binary 
